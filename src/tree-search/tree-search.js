@@ -27,6 +27,6 @@ const findNodeInTreeIterative = (tree, matchingTitle) => {
 }
 
 module.exports = {
-  findNodeInTree: findNodeInTree,
-  findNodeInTreeIterative: findNodeInTreeIterative
+  findNode: findNodeInTree,
+  findNodeIterative: findNodeInTreeIterative
 };
