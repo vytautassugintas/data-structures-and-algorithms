@@ -13,3 +13,9 @@ it("should return sorted array using bubble sort with while loop", () => {
     expect(bubble.sortWithWhile(testData)).toEqual([1, 2, 2, 3, 4, 5, 5, 6]);
     t.stop();
 })
+
+it("should sort array using recursive bubble sort", () => {
+    const t = timer("Bubble sort recursive");
+    expect(bubble.sortRecursive(testData)).toEqual([1, 2, 2, 3, 4, 5, 5, 6]);
+    t.stop();
+})
