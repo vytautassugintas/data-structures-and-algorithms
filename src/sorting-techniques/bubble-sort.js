@@ -29,7 +29,7 @@ const bubbleSortWithWhile = items => {
   return arrCopy;
 };
 
-bubbleSortRecursive = (array = [], i = 0, j) => {
+const bubbleSortRecursive = (array = [], i = 0, j) => {
   arrCopy = [...array];
   j = j === undefined ? arrCopy.length : j;
   if (j === 0) return arrCopy;
